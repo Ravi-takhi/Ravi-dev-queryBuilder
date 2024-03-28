@@ -67,3 +67,4 @@ VALUES
     (2, 'Kuljit', 22), -- Assuming student with id 2 doesn't exist, this will insert a new record for Kuljit
     (3, 'Monika', 21); -- Assuming student with id 3 doesn't exist, this will insert a new record for Monika
 ```
+### Reflection
