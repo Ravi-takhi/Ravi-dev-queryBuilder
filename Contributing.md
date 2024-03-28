@@ -68,3 +68,4 @@ VALUES
     (3, 'Monika', 21); -- Assuming student with id 3 doesn't exist, this will insert a new record for Monika
 ```
 ### Reflection
+Overall, I feel like I did a good job solving the problem. Someone needed help with the "insert or replace" query in SQL, so I did some research. I found a solution by creating a table first and then updating the data using the "insert or replace" query. After getting feedback from Kuljit, I added another step to add the data before updating it. This made the code easier to understand for everyone.
