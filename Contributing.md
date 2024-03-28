@@ -36,3 +36,7 @@ VALUES
     (2, 'Kuljit', 22), -- Assuming student with id 2 doesn't exist, this will insert a new record for Kuljit
     (3, 'Monika', 21); -- Assuming student with id 3 doesn't exist, this will insert a new record for Monika
 ```
+### Code review and outcomes
+#### Code review
+Kuljit has reviwed my code and shared some feedback points for making a table called "students" and putting in new information or updating existing information. She thought the way I made the table was good, with rules to keep the data organized. Using "INSERT OR REPLACE INTO" was smart because it either adds new info or changes old info if it's already there. The comments you wrote next to each new piece of information helped to understand what's going on. However, She suggested adding another part to the code before updating the records. This part would put some initial information into the table right after creating it. Doing this would help people see how the table works and how the updates happen. Kuljit also thought the code was easy to understand overall.
+#### Outcome
