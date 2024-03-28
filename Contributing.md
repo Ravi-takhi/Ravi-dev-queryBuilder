@@ -5,4 +5,7 @@ SqlKata Query Builder is a powerful Sql Query Builder written in C#. It's secure
 Checkout the full documentation on https://sqlkata.com
 ### Link
 https://github.com/Ravi-takhi/Ravi-dev-queryBuilder/tree/Ravi-dev-branch
+### Summary of issues examined
+This [issue](https://github.com/sqlkata/querybuilder/issues/641), raised by H0nok4 on Nov 17, 2022, The person is having trouble with doing an "insert or replace" action in SQLite. They're finding it tricky to insert new data or replace existing data in the table at the same time. They're looking for a straightforward way to solve this problem in SQLite.
+
 
