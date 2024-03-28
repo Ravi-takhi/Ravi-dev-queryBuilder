@@ -19,3 +19,20 @@ The REPLACE statement works by executing two steps when a UNIQUE or PRIMARY KEY 
 INSERT OR REPLACE INTO table(column_list)
 VALUES(value_list);
 ```
+#### Example of INSERT OR REPLACE students data
+1. First, assuming you have a table named "students" with columns "id" (primary key), "name", and "age".
+``` sql
+CREATE TABLE IF NOT EXISTS students (
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    age INTEGER
+);
+```
+2. Then, you can use the following SQL statement to update or insert student records
+``` sql
+INSERT OR REPLACE INTO students (id, name, age)
+VALUES 
+    (1, 'Ravi', 20),  -- Assuming student with id 1 already exists, this will update Ravi's record
+    (2, 'Kuljit', 22), -- Assuming student with id 2 doesn't exist, this will insert a new record for Kuljit
+    (3, 'Monika', 21); -- Assuming student with id 3 doesn't exist, this will insert a new record for Monika
+```
